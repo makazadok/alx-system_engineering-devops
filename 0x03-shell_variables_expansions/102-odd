@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l
+perl -ne 'if ($. % 2 == 1)
